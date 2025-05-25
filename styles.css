@@ -8,7 +8,7 @@
 /* ===== BODY ===== */
 body {
     font-family: Arial, sans-serif;
-    background-color: #0f0f0f;
+    background-color: #111;
     color: #e0e0e0;
     line-height: 1.6;
 }
@@ -18,12 +18,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #111;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .logo img {
-
     height: 40px;
 }
 
@@ -40,3 +42,36 @@ nav li {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* ===== INTRO ===== */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+    background-color: #161d23;
+    width: 100%;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+.introimg img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .intro {
+    flex-direction: row;
+    text-align: left;
+    }
+}
+
+

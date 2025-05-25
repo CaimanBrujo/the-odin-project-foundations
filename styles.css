@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* ===== BODY ===== */
 body {
     font-family: Arial, sans-serif;
@@ -43,10 +48,15 @@ nav ul {
     padding: 0;
 }
 
-nav li {
+nav li a {
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ffffff87;
 }
 
 /* ===== INTRO ===== */

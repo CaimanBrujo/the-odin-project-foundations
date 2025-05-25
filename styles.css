@@ -14,12 +14,18 @@ body {
 }
 
 /* ===== HEADER ===== */
+.header-container{
+    width: 100%;
+    background-color: #161d23;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
-    background-color: #111;
+    background-color: #161d23;
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
@@ -66,6 +72,24 @@ nav li {
     height: auto;
     text-align: right;
 }
+
+.btn {
+    display: inline-block;
+    background-color: #ff3c00;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+.btn:hover {
+    background-color: #e63600;
+}
+
 
 @media (min-width: 768px) {
     .intro {

@@ -152,7 +152,7 @@ nav li {
 /* QUOTE */
 .quote-container{
     width: 100%;
-    background-color: #3b4755;
+    background-color: #384350;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -161,7 +161,7 @@ nav li {
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 20px;
-    background-color: #3b4755;
+    background-color: #384350;
     color: #e0e0e0;
 }
 
@@ -180,3 +180,38 @@ nav li {
     margin: 0;
     text-align: right;
 }
+
+/* ACTION */
+.action-container {
+    width: 100%;
+    background-color: #3b4755;
+    padding: 40px 20px;
+}
+
+.call-to-action {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #384350;
+    text-align: center;
+}
+
+.call-to-action a {
+    align-self: center;
+    margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+    .call-to-action {
+    flex-direction: row;
+    text-align: left;
+    }
+}
+

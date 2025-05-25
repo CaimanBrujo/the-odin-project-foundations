@@ -90,12 +90,65 @@ nav li {
     background-color: #e63600;
 }
 
-
 @media (min-width: 768px) {
     .intro {
-    flex-direction: row;
-    text-align: left;
+        flex-direction: row;
+        text-align: left;
     }
 }
 
+/* ===== PROJECTS ===== */
+
+.projects {
+    background-color: #3b4755;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.projects li {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects li h3 {
+    background-color: #e0e0e0;
+    color: #111;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.projects li p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ccc;
+    text-align: center;
+}
+
+
+/* DESKTOP: cambia a flex row */
+@media (min-width: 768px) {
+    .projects ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
 

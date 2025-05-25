@@ -215,3 +215,20 @@ nav li {
     }
 }
 
+/* FOOTER */
+footer {
+    background-color: #161d23;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ccc;
+    font-size: 2em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}

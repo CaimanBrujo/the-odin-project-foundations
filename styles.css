@@ -98,7 +98,6 @@ nav li {
 }
 
 /* ===== PROJECTS ===== */
-
 .projects {
     background-color: #3b4755;
 }
@@ -141,8 +140,6 @@ nav li {
     text-align: center;
 }
 
-
-/* DESKTOP: cambia a flex row */
 @media (min-width: 768px) {
     .projects ul {
         display: flex;
@@ -152,3 +149,34 @@ nav li {
     }
 }
 
+/* QUOTE */
+.quote-container{
+    width: 100%;
+    background-color: #3b4755;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.quote {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #3b4755;
+    color: #e0e0e0;
+}
+
+.quote blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0 0 10px;
+    text-align: left;
+    
+}
+
+.quote .author {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0;
+    text-align: right;
+}

@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-
-body {
+/* ===== body ===== */
+body.landing {
     font-family: sans-serif;
-    background-color: #fef6f0; /* soft peach pastel background */
+    background-color: #fef6f0;
     color: #222222;
     height: 100vh;
     display: flex;
@@ -45,7 +45,7 @@ body {
 }
 
 .recipes a {
-    color: #cc0000; /* strong red */
+    color: #cc0000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -53,6 +53,103 @@ body {
 }
 
 .recipes a:hover {
-    color: #990000; /* darker red on hover */
+    color: #990000;
+    text-decoration: underline;
+}
+
+
+/* ===== IMAGES IN RECIPES ===== */
+.recipe-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+
+/* ===== RECIPE PAGE BODY ===== */
+body {
+    font-family: sans-serif;
+    background-color: #fef6f0;
+    color: #222222;
+    padding: 2rem;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.recipe-main {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ===== TITLE ===== */
+.recipe-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== PARAGRAPHS ===== */
+.recipe-paragraph {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* ===== SECTION TITLES ===== */
+.section-title {
+
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+}
+
+/* ===== INGREDIENTS LIST ===== */
+.ingredients-list {
+    display: grid;
+    gap: 0.75rem;
+    padding: 0;
+    list-style: none;
+}
+
+.ingredient-item {
+    background-color: #ffffff;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #00000014;
+}
+
+/* ===== STEPS LIST ===== */
+.steps-list {
+    text-align: left;
+    margin: 1rem auto;
+    padding-left: 1.5rem;
+    max-width: 600px;
+}
+
+.step-item {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+/* ===== BACK TO HOME BUTTON ===== */
+.back {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 5px;
+    background-color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #00000014;
+}
+
+header.recipes {
+    margin: 20px auto;
+}
+
+.back:hover {
+    color: #990000;
     text-decoration: underline;
 }

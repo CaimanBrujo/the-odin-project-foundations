@@ -6,14 +6,13 @@
 }
 
 /* ===== body ===== */
-body.landing {
+.landing {
     font-family: sans-serif;
     background-color: #fef6f0;
     color: #222222;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 /* ===== MAIN CONTAINER ===== */
@@ -25,6 +24,7 @@ body.landing {
     text-align: center;
     max-width: 500px;
     width: 100%;
+    height: fit-content;
 }
 
 /* ===== TITLE ===== */
@@ -145,8 +145,9 @@ body {
     box-shadow: 0 4px 12px #00000014;
 }
 
-header.recipes {
+header{
     margin: 20px auto;
+    width: 100%;
 }
 
 .back:hover {

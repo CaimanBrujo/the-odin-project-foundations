@@ -150,6 +150,16 @@ nav li a:hover {
     text-align: center;
 }
 
+.project-link {
+    text-decoration: none;
+}
+
+.project-link h3:hover {
+    background-color: #e0e0e0dc;
+}
+
+
+
 @media (min-width: 768px) {
     .projects ul {
         display: flex;

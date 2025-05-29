@@ -16,7 +16,7 @@ body{
 h1{
     font-size: 2rem;
     color: #333333;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .choice{
@@ -45,4 +45,12 @@ h1{
 #resultDisplay{
     font-size: 4rem;
     margin: 30px auto;
+}
+
+.greenText{
+    color: #338d33;
+}
+
+.redText{
+    color: #cf2828;
 }

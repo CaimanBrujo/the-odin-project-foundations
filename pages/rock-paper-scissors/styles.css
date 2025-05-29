@@ -58,3 +58,27 @@ h1{
 .scoreDisplay{
     font-size: 2rem;
 }
+
+/*  HEADER BACK TO PORTFOLIO */
+.back {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    padding: 5px;
+    background-color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #00000014;
+}
+
+header{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.back:hover {
+    color: #990000;
+    text-decoration: underline;
+}

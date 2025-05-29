@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.choice{
+    margin: 30px auto;
+
+}
+
+.choice button{
+    font-size: 6rem;
+    min-width: 130px;
+    margin: 0 10px;
+    border-radius: 200px;
+    background-color: #616161;
+    cursor: pointer;
+    transition: background-color 0.5% ease;
+}
+
+.choice button:hover{
+    background-color: #b1b1b1;
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+
+#resultDisplay{
+    font-size: 4rem;
+    margin: 30px auto;
+}

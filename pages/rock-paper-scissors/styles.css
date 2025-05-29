@@ -47,10 +47,14 @@ h1{
     margin: 30px auto;
 }
 
-.greenText{
+.greenText, #playerScoreDisplay{
     color: #338d33;
 }
 
-.redText{
+.redText, #computerScoreDisplay{
     color: #cf2828;
+}
+
+.scoreDisplay{
+    font-size: 2rem;
 }

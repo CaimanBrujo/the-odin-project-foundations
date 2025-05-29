@@ -26,8 +26,8 @@ h1{
 }
 
 .choice button{
-    font-size: 6rem;
-    min-width: 130px;
+    font-size: 4.5rem;
+    min-width: 100px;
     margin: 0 10px;
     border-radius: 200px;
     background-color: #616161;

@@ -1,10 +1,10 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     background-color: #111;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     padding: 1rem;
 }
 
-.etch-container {
+.etch-container{
     background-color: #d20000;
     color: white;
     width: 100%;
@@ -27,13 +27,21 @@ body {
     box-shadow: 0 0 20px #00000066;
 }
 
-h1 {
+h1{
     font-size: 2rem;
     text-align: center;
     letter-spacing: 2px;
 }
 
-.etch-board {
+.upperbtn, .color-controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.etch-board{
     background-color: #f1f1f1;
     width: 100%;
     aspect-ratio: 1 / 1;

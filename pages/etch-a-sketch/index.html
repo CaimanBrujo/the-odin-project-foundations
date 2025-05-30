@@ -13,18 +13,18 @@
             <h1>ETCH-A-SKETCH</h1>
             <div class="upperbtn">
                 <form id="size-form" class="grid-form">
-                <input type="number" id="grid-size" min="1" max="100" required>
+                <input class="btn btn-light" type="number" id="grid-size" min="1" max="100" required>
                 <button type="submit" class="btn btn-light">Set Grid</button>
                 </form>
                 <button type="button" id="reset-btn" class="btn btn-light">Reset</button>
             </div>
-            <div class="etch-board"></div>
+            <div class="etch-board"  id="etch-board"></div>
             <div class="color-controls">
                 <button id="black-btn" class="btn btn-light">Black</button>
                 <button id="random-btn" class="btn btn-light">Random</button>
                 <button id="eraser-btn" class="btn btn-light">Eraser</button>
             </div>
         </div>
-
+        <script src="script.js"></script>
     </body>
 </html>

@@ -19,6 +19,10 @@ This repository contains all the projects I've completed as part of the **Founda
   A dynamic game built entirely with JavaScript and DOM manipulation.  
   [🔗 Live preview](https://caimanbrujo.github.io/the-odin-project-foundations/pages/rock-paper-scissors/)
 
+- 🔹 **[Etch-a-Sketch](./pages/etch-a-sketch/)**  
+A customizable sketching grid where users can draw by clicking and dragging. Includes color selection (black, random, eraser), grid resizing, reset functionality, and full mobile interaction support via touch events. Built with JavaScript and CSS Grid.
+  [🔗 Live preview](https://caimanbrujo.github.io/the-odin-project-foundations/pages/etch-a-sketch/)
+
 ---
 
 ## 🌐 Project Highlight: Landing Page

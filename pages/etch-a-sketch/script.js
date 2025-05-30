@@ -35,6 +35,7 @@ function createBoard(size){
         const div = document.createElement("div");
         div.classList.add("grid-square");
 
+        // Desktop interaction
         div.addEventListener("mousedown", () => {
         colorCell(div);
         });
@@ -42,6 +43,21 @@ function createBoard(size){
         div.addEventListener("mouseover", () => {
         if (mouseDown) colorCell(div);
         });
+
+         // Mobile interaction
+        div.addEventListener("touchstart", (e) => {
+            e.preventDefault();
+            colorCell(div);
+        }, { passive: false });
+
+        div.addEventListener("touchmove", (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const touchedElement = document.elementFromPoint(touch.clientX, touch.clientY);
+            if (touchedElement && touchedElement.classList.contains("grid-square")) {
+            colorCell(touchedElement);
+            }
+        }, { passive: false });
 
         board.insertAdjacentElement("beforeend", div)
     }

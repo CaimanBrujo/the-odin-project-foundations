@@ -1,0 +1,41 @@
+# 🧮 Calculator – The Odin Project Foundations
+
+This project is part of the [Foundations Path](https://www.theodinproject.com/paths/foundations/courses/foundations) from **The Odin Project**.
+
+## 📚 Project Goal
+
+The original assignment required:
+
+- Building a basic calculator using JavaScript  
+- Handling operations like addition, subtraction, multiplication, and division  
+- Using buttons for input instead of typing directly  
+- Displaying results and updating the screen dynamically  
+- Organizing code into small, readable functions
+
+## ✨ My Personal Touch
+
+In addition to meeting the basic requirements, I added several improvements:
+
+- ✅ Fully styled UI with a **clean dark theme**
+- ✅ Support for decimal input and **prevention of multiple dots**
+- ✅ Logic for handling **initial zero and reset state**
+- ✅ `DEL` button to remove characters one by one  
+- ✅ Support for **chaining operations** after pressing `=`
+- ✅ Display shows **"Ans"** when showing the result of the last calculation
+- ✅ All logic written in **vanilla JavaScript**
+
+## 🛠️ Built With
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)
+
+## 🔗 Live Preview
+
+[🔗 See it on GitHub Pages](https://caimanbrujo.github.io/the-odin-project-foundations/pages/calculator/index.html)
+
+## 📝 Status
+
+✅ Project complete and functional.  
+Minor bugs may be present (e.g. advanced edge cases), but the core logic is solid and working as expected.  
+This was a valuable learning experience in DOM manipulation, conditional logic, and state management.

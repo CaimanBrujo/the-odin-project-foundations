@@ -62,3 +62,15 @@ function calculate(){
 function isOperator(char) {
     return ["+", "-", "*", "/"].includes(char);
 }
+
+function removeFromDisplay() {
+    currentDisplay.value = currentDisplay.value.slice(0, -1);
+    previousDisplay.value = "";
+
+    if (currentDisplay.value === "") {
+        currentDisplay.value = "0";
+        shouldResetDisplay = true;
+        calculusMade = false;
+        previousDisplay.value = "";   
+    }
+}

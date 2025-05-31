@@ -32,9 +32,16 @@ body {
     justify-content: center;
 }
 
-.previous-operand {
+.previous-operand, .current-operand{
     color: #aaaaaa;
     font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2rem;
+    text-align: right;
+    width: 100%;
+    padding: 0;
 }
 
 .current-operand {
@@ -93,3 +100,4 @@ header{
 .back:hover {
     color: #990000;
 }
+

@@ -12,7 +12,7 @@ body {
     display: grid;
     width: 320px;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 80px;
+    grid-template-rows: 120px repeat(5, 80px);
     gap: 10px;
     background-color: #1e1e1e;
     padding: 20px;
@@ -30,16 +30,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 2rem;
 }
 
 .previous-operand {
     color: #aaaaaa;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .current-operand {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
 }
 
 .btn {

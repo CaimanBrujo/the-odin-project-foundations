@@ -23,6 +23,11 @@ This repository contains all the projects I've completed as part of the **Founda
 A customizable sketching grid where users can draw by clicking and dragging. Includes color selection (black, random, eraser), grid resizing, reset functionality, and full mobile interaction support via touch events. Built with JavaScript and CSS Grid.
   [🔗 Live preview](https://caimanbrujo.github.io/the-odin-project-foundations/pages/etch-a-sketch/)
 
+- 🔹 **[Calculator](./pages/calculator/)**  
+A simple yet functional calculator that supports basic operations: addition, subtraction, multiplication, and division. Handles decimal inputs, chained operations, and includes a clear/reset button. Fully responsive and mobile-friendly, built with vanilla JavaScript and CSS Flexbox.  
+  [🔗 Live preview](https://caimanbrujo.github.io/the-odin-project-foundations/pages/calculator/)
+
+
 ---
 
 ## 🌐 Project Highlight: Landing Page
@@ -56,4 +61,4 @@ The goal of this project was to:
 ## 📝 Status
 
 ✅ All projects completed and fully functional.  
-📦 More to be added as the course progresses.
+
